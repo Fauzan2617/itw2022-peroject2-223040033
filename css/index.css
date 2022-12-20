@@ -2,6 +2,26 @@
   background-color: #e3f2fd !important;
 }
 
+.color-service {
+  background-color: #1eb5da;
+}
+
+.hovered-card {
+  transition: 0.3s;
+}
+
+.hovered-card:hover {
+  transform: scale(1.1);
+}
+
+.content-subscribe {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.margin-top-banner {
+  margin-top: 67px;
+}
+
 button {
   /* Variables */
   --button_radius: 0.75em;
@@ -36,4 +56,12 @@ button:hover .button_top {
 button:active .button_top {
   /* Push the button downwards when pressed */
   transform: translateY(0);
+}
+
+.icon-service {
+  width: 90px;
+  height: 90px;
+  border: solid black 2px;
+  border-radius: 50%;
+  color: #fff;
 }
