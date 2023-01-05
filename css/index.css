@@ -65,3 +65,8 @@ button:active .button_top {
   border-radius: 50%;
   color: #fff;
 }
+
+.style-icon {
+  list-style: none !important;
+  text-decoration: none !important;
+}

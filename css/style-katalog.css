@@ -1,0 +1,37 @@
+.margin-katalog {
+  margin-top: 100px;
+  color: #666666;
+  font-size: 40px;
+  margin-right: 100px;
+}
+
+.konten {
+  margin-left: 100px;
+}
+
+span {
+  color: #666666;
+  opacity: 90%;
+}
+
+.hover-facebook:hover {
+  color: blue;
+}
+.hover-twitter:hover {
+  color: #00ffff;
+}
+.hover-instagram:hover {
+  color: #8a2be2;
+}
+.hover-youtube:hover {
+  color: red;
+}
+
+.margin-footer {
+  margin-top: 180px;
+}
+
+.size-judul {
+  font-size: 60px;
+  font-weight: bold;
+}
