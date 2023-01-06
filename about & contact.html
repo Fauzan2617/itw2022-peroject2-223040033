@@ -4,8 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tupperware - Katalog & Brosur</title>
+    <title>Tupperware - About&Contact</title>
     <link rel="icon" href="img/logo.png" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/080abbda3b.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
@@ -17,6 +22,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
     />
+
     <link rel="stylesheet" href="css/style-katalog.css" />
   </head>
   <body>
@@ -97,7 +103,7 @@
     <div class="container-fluid py-5">
       <div class="container">
         <div class="row">
-          <p class="margin-katalog">Katalog & Brosur</p>
+          <p class="margin-katalog">About & Contact</p>
           <!-- Kategori -->
           <div class="col-md-4 col-lg-3 mb-5">
             <h4>Kategori</h4>
@@ -107,66 +113,152 @@
                 class="list-group-item list-group-item-action active"
                 aria-current="true"
               >
-                Brosur - Tupperware 2023
+                About & Contact
               </a>
-              <a href="#" class="list-group-item list-group-item-action"
-                >Katalog - Tupperware 2022</a
-              >
             </div>
           </div>
-          <!-- Brosur & Katalog -->
+          <!-- Contact dan About -->
           <div class="col-md-8 col-lg-9">
-            <div class="card mb-3 konten" style="max-width: 650px">
+            <div class="mb-3 konten" style="max-width: 650px">
               <div class="row g-0">
                 <div class="col-md-4">
                   <img
-                    src="img/brosur 2022.jpg"
+                    src="img/kontak.png"
                     class="img-fluid rounded-start"
                     alt="..."
                   />
                 </div>
                 <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title"><span>Brosur Januari 2023</span></h5>
+                  <div class="card-body margin-contact">
+                    <h5 class="card-title">
+                      <span>PT. Tupperware Indonesia</span>
+                    </h5>
                     <p class="card-text">
-                      Semangat menjadi lebih sehat, damai, dan bahagia di 2023!
+                      <br />
+                      Gedung South Quarter, Tower A Lantai 12 Jl. RA Kartini Kav
+                      8, Cilandak Barat Jakarta Selatan - 12430 No Telp :
+                      021-2966-1750 (Hunting) Fax : 021-2966-1751
                       <br />
                       <br />
-                      *Promo berlaku selama 1 Januari - 4 Februari 2023
+                      Hubungi Pusat Pelayanan Konsumen kami di layanan Customer
+                      Service : No Telp : 021-2966-1700 Whatsapp : +62
+                      815-1030-0031 Email : customer@tupperware.com
+                      <br />
+                      <br />
+                      Jadwal Operasional Customer Service : Senin – Jumat (08.30
+                      – 17.00 WIB)
                     </p>
-                    <a href="#" class="btn btn-primary w-50"
-                      >Lihat brosur di sini</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card mb-3 konten" style="max-width: 650px">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="img/katalog.jpg"
-                    class="img-fluid rounded-start"
-                    alt="..."
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title"><span>Katalog 2022</span></h5>
-                    <p class="card-text">
-                      <strong>#BeraniBerubah</strong>
-                      <br />
-                      <br />
-                      Hidup Lebih Sehat, Praktis, dan Higienis
-                    </p>
-                    <a href="#" class="btn btn-primary w-50"
-                      >Lihat katalog di sini</a
+                    <a
+                      href="https://goo.gl/maps/aGXUH7RU7tBe1fAD9"
+                      target="_blank"
+                      class="btn btn-primary w-70"
+                      >Lihat Peta Kantor PT. Tupperware Indonesia</a
                     >
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="container-fluid py-5">
+      <div class="container">
+        <div class="row">
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label"
+                >First name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom01"
+                value="Mark"
+                required
+              />
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label"
+                >Last name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom02"
+                value="Otto"
+                required
+              />
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label"
+                >Username</label
+              >
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustomUsername"
+                  aria-describedby="inputGroupPrepend"
+                  required
+                />
+                <div class="invalid-feedback">Please choose a username.</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">City</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom03"
+                required
+              />
+              <div class="invalid-feedback">Please provide a valid city.</div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label">State</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+              </select>
+              <div class="invalid-feedback">Please select a valid state.</div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom05" class="form-label">Zip</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom05"
+                required
+              />
+              <div class="invalid-feedback">Please provide a valid zip.</div>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="invalidCheck"
+                  required
+                />
+                <label class="form-check-label" for="invalidCheck">
+                  Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
@@ -200,6 +292,7 @@
         <label>@2022Tupperware</label>
       </div>
     </div>
+    <!-- Js -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
