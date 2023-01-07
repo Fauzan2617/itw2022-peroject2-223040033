@@ -26,6 +26,14 @@
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
+    <!-- Preloader -->
+    <div class="loader_bg fixed-top">
+      <div class="loader"></div>
+    </div>
+    <!-- Botton Back To Top -->
+    <a href="#" class="to-top">
+      <i class="fas fa-chevron-up"></i>
+    </a>
     <!-- nav bar -->
     <nav class="navbar fixed-top navbar-expand-lg main-color">
       <div class="container-fluid">
@@ -73,7 +81,11 @@
                 Lainnya
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">About & Contact</a></li>
+                <li>
+                  <a class="dropdown-item" href="about & contact.html"
+                    >About & Contact</a
+                  >
+                </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
                   <a class="dropdown-item" href="#"
@@ -540,10 +552,17 @@
       </div>
     </div>
     <!-- Js -->
+    <script src="js/main.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      setTimeout(function () {
+        $(".loader_bg").fadeToggle();
+      }, 1500);
+    </script>
   </body>
 </html>

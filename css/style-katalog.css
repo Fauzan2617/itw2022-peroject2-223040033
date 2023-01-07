@@ -9,6 +9,10 @@
   margin-left: 60px;
 }
 
+.konten1 {
+  margin-left: 100px;
+}
+
 span {
   color: #666666;
   opacity: 90%;
@@ -79,4 +83,31 @@ button:after {
 
 .margin-contact {
   margin-left: 30px;
+}
+
+/* Button Top */
+.to-top {
+  background: black;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: white !important;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s;
+  z-index: 999;
+}
+
+.to-top.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
 }
