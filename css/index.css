@@ -64,6 +64,7 @@ button:active .button_top {
   border: solid black 2px;
   border-radius: 50%;
   color: #fff;
+  background-image: url();
 }
 
 /* Button Top */
